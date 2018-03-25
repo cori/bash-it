@@ -96,14 +96,14 @@ fi
 
 BASH_IT="$(cd "$(dirname "$0")" && pwd)"
 
-case $OSTYPE in
-  darwin*)
+#case $OSTYPE in
+#  darwin*)
     CONFIG_FILE=.bash_profile
-    ;;
-  *)
-    CONFIG_FILE=.bashrc
-    ;;
-esac
+#    ;;
+#  *)
+#    CONFIG_FILE=.bashrc
+#    ;;
+#esac
 
 BACKUP_FILE=$CONFIG_FILE.bak
 echo "Installing bash-it"
